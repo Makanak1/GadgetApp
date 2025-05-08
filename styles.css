@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Orbitron', sans-serif;
+  background: rgb(255 255 255);
+  max-width: 1200px;
+}
+#container{
+  max-width: 1100px;
+  margin: auto;
+  /* display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 40px;
+  padding: 20px; */
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.logo>img{
+  height: 80px;
+}
+.nav-links{
+  display: flex;
+  gap: 2rem;
+}
+a{
+  outline: none;
+  outline-color: none;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.nav-right{
+  display: flex;
+  gap: 2rem;
+}
+.Banner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid rgb(92 92 92);
+  height: 60vh;
+  object-fit: contain;
+  margin-bottom: 5rem;
+}
+.Right_banner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+.Right_banner>img{
+  height: 60vh;
+}
+i{
+  font-size: 1.3rem;
+  color: rgb(92 92 92);
+}
+.gadget-image{
+  display:grid;
+  grid-template-columns:repeat(5, 2fr);
+  grid-template-rows: repeat(5, 2fr);
+  grid-column-gap:20px;
+  grid-row-gap:40px;
+  border: none;
+  height: 75vh;
+}
+.gadget-image img{
+  width: 100%;
+  height: auto;
+}
+.box{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: rgb(243 244 246);
+  border-radius: 10px;
+}
+.Best-seller{
+  display:grid;
+  grid-template-columns:repeat(5, 2fr);
+  grid-template-rows: repeat(5, 2fr);
+  grid-column-gap:20px;
+  grid-row-gap:40px;
+  border: none;
+  height: 40vh;
+}
+.Best-seller img{
+  width: 100%;
+  height: auto;
+}
+.Three{
+  display: flex;
+  justify-content: space-between;
+  margin-block: 4rem;
+  max-width: 1000px;
+  margin: 4rem auto;
+}
+h5{
+  margin: auto;
+}
+.context >h2,.context >h3{
+  text-align: center;
+  color: rgb(92 92 92);
+  font-size: 2rem;
+}
+.context >p{
+  text-align: center;
+  color: rgb(92 92 92);
+  font-size: 1rem;
+  margin: auto;
+  max-width: 900px;
+}
